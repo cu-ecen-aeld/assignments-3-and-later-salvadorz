@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
             /** 2.3
              * Use the syslog capability to log any unexpected errors with LOG_ERR level.
             */
-            syslog(LOG_ERR,"Not succesful fcloe. %s",strerror( errno ));
+            syslog(LOG_ERR,"Not succesful fclose. %s",strerror( errno ));
             return_val = errno;
         }
       }
