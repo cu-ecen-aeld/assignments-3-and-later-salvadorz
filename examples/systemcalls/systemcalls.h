@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdbool.h>
+#include <stdio.h>   // fprintf, std_streams
+#include <stdbool.h> // bool
 #include <stdarg.h>
 
 bool do_system(const char *command);
